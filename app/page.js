@@ -27,8 +27,8 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   const [itemName, setItemName] = useState('');
   const [itemQuantity, setItemQuantity] = useState('');
-  const [itemCategory, setItemCategory] = useState('');
   const [description, setDescription] = useState('');
+  const [itemCategory, setItemCategory] = useState('');
   const [price, setPrice] = useState('');
   const [supplier, setSupplier] = useState('');
   const [editOpen, setEditOpen] = useState(false);
